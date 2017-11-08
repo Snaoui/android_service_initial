@@ -28,7 +28,7 @@ public class ThirdMainActivity extends Activity implements View.OnClickListener 
     }
 
     public void onClick(View src) {
-        switch (src.getId()) {
+       /* switch (src.getId()) {
             case R.id.buttonStart:
                 startService(new Intent(this, MonTroisiemeService.class));
                 break;
@@ -39,6 +39,6 @@ public class ThirdMainActivity extends Activity implements View.OnClickListener 
                 Intent intent = new Intent(this, NextPage.class);
                 startActivity(intent);
                 break;
-        }
+        }*/
     }
 }

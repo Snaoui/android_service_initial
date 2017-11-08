@@ -20,7 +20,7 @@ public class BoundService extends Service {
         Log.v(LOG_TAG, "in onCreate");
         mChronometer = new Chronometer(this);
         mChronometer.setBase(SystemClock.elapsedRealtime());
-        mChronometer.start();
+       // mChronometer.start();
     }
 
     @Override

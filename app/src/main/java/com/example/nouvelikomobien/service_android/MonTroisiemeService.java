@@ -23,13 +23,13 @@ public class MonTroisiemeService extends Service {
 
     @Override
     public void onCreate() {
+        /*
         Toast.makeText(this, "Service Created", Toast.LENGTH_LONG).show();
 
         myPlayer = MediaPlayer.create(this, R.raw.sun);
 
         myPlayer.setLooping(false); // Set looping
-
-        chronometer.start();
+        */
 
     }
 
